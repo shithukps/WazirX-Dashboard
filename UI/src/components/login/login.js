@@ -95,17 +95,22 @@ export default function Login() {
                             label="Secret"
                             id="secret"
                         />
+                        <Typography
+                            align="center"
+                            sx={{ mt: 1 }}
+                        >
+                            Forgot API Key & Secret? Get it <Link href="https://wazirx.com/blog/create-wazirx-api-key/" target="_blank">Here</Link>
+                        </Typography>
+
                         <Button
                             type="submit"
                             fullWidth
                             variant="contained"
-                            sx={{ mt: 3, mb: 2 }}
+                            sx={{ mt: 2, mb: 2 }}
                         >
                             Sign In
                         </Button>
-                        <Typography>
-                            Get you API Key & Secret from <Link href="https://wazirx.com/blog/create-wazirx-api-key/">here</Link>
-                        </Typography>
+
                     </Box>
                 </Box>
             </Container>
