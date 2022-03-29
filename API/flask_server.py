@@ -145,6 +145,7 @@ def get_funds():
     fundsDf["Avg_Buy_Price"] = fundsDf["Total_Investment"] / fundsDf["Holdings"]
     fundsDf["Gain"] = fundsDf['Current_Value'] - fundsDf["Total_Investment"]
     fundsDf["Gain_Perc"] = (fundsDf['Gain'] / fundsDf["Total_Investment"]) * 100
+    fundsDf = fundsDf.round(3)
     print("--------------------------")
     print("Fund Details.")
     print("--------------------------")
