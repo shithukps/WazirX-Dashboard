@@ -99,7 +99,7 @@ export default function Login() {
                             align="center"
                             sx={{ mt: 1 }}
                         >
-                            Forgot API Key & Secret? Get it <Link href="https://wazirx.com/blog/create-wazirx-api-key/" target="_blank">Here</Link>
+                            Forgot read only API Key & Secret? Get it <Link href="https://wazirx.com/blog/create-wazirx-api-key/" target="_blank">Here</Link>
                         </Typography>
 
                         <Button
