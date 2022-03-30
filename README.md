@@ -7,8 +7,9 @@ An unofficial dashboard created for Wazirx cypto exchange  to view realtime P&L 
 - login using api key and secret  ( here is how ) . Only read access in needed.
 - We dont store the credentials anywhere nor use a database
 
+Hosted link : [Here](http://129.154.39.115:3000/ "Here")
 
-##### steps to setup and run yourself:
+##### steps to setup and run yourself in local:
 1. install python3 and npm
 2. pip install -r requirements.txt
 3. python3 flask_server.py
