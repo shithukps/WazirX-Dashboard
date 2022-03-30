@@ -18,4 +18,7 @@ Hosted link : [Here](http://129.154.39.115:3000/ "Here")
 
 Note : If backend is running on a different IP, it should be manually edited in the file : `UI/src/constants/appconstants.js `for binding to ui.
 
+##### UI Sample:
+
+![](https://raw.githubusercontent.com/shithukps/WazirX-Dashboard/main/UI/sample_ui.png)
 
